@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 76.0, 1468.0, 714.0 ],
+		"rect" : [ 28.0, 82.0, 1468.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 431.0, 248.143936157226563, 150.0, 74.0 ],
+					"patching_rect" : [ 431.0, 248.143936157226563, 152.0, 74.0 ],
 					"text" : "Store the state of the MIDI reference note.\n\n\"z\" lowers by an octave\n\"x\" increases by an octave"
 				}
 
@@ -307,7 +307,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 21.0, 72.81817626953125, 241.0, 184.0 ],
-					"text" : "/ascii : \"delete\",\n/keystate : \"up\",\n/keynum : -6,\n/numKeysDown : 0,\n/fingerIndex : 1,\n/shift : \"up\",\n/capslock : \"up\",\n/option : \"up\",\n/control : \"up\",\n/command : \"down\",\n/time : 2019-02-21T23:55:15.466250ZZ"
+					"text" : "/ascii : \"f\",\n/keystate : \"up\",\n/keynum : 102,\n/numKeysDown : 0,\n/fingerIndex : 1,\n/shift : \"up\",\n/capslock : \"up\",\n/option : \"up\",\n/control : \"up\",\n/command : \"down\",\n/time : 2019-02-24T18:44:02.330482ZZ"
 				}
 
 			}
@@ -475,27 +475,27 @@
 		"dependency_cache" : [ 			{
 				"name" : "cnmat.o.io.keyboard.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/io",
-				"patcherrelativepath" : "../../../Packages/Music-and-Computing-1.7/patchers/io",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.loadbang.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/internal",
-				"patcherrelativepath" : "../../../Packages/Music-and-Computing-1.7/patchers/internal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/internal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ascii_to_rmidi.js",
-				"bootpath" : "~/Documents/Max 8/Library/21M.379/lab2",
+				"bootpath" : "~/Documents/computer-music/max/lab2",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "octave_state.js",
-				"bootpath" : "~/Documents/Max 8/Library/21M.379/lab2",
+				"bootpath" : "~/Documents/computer-music/max/lab2",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -551,9 +551,9 @@
 , 			{
 				"name" : "section dividers",
 				"default" : 				{
-					"fontsize" : [ 15.0 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 3 ]
+					"fontface" : [ 3 ],
+					"fontsize" : [ 15.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -562,8 +562,8 @@
 , 			{
 				"name" : "section info reg",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",

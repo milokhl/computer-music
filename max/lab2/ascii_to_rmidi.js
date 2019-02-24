@@ -23,6 +23,7 @@ var ascii_to_rmidi = {
 };
 
 var keycode_to_rmidi = {
+	113: -12,
 	97: 0,
 	119: 1,
 	115: 2,
