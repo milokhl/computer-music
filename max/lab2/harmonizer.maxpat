@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-116",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 628.838134765625, 368.0, 150.0, 47.0 ],
+					"text" : "PLEASE GO TO PRESENTATION MODE TO CLEAN THIS UP!"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-114",
 					"linecount" : 19,
 					"maxclass" : "comment",
@@ -62,7 +74,7 @@
 					"patching_rect" : [ 220.0, 586.0, 150.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 201.838134765625, 552.0, 262.25, 47.0 ],
+					"presentation_rect" : [ 186.0, 598.0, 262.25, 47.0 ],
 					"text" : "Depending on the fader knobs above, you should hear autotuned input audio, as well as any harmonies played on the keyboard."
 				}
 
@@ -165,7 +177,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 628.838134765625, 627.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.838134765625, 519.0, 150.0, 34.0 ],
+					"presentation_rect" : [ 186.0, 565.0, 150.0, 34.0 ],
 					"text" : "AUDIO OUT\n"
 				}
 
@@ -1214,7 +1226,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 634.838134765625, 653.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.838134765625, 605.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 186.0, 651.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -1292,7 +1304,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 13,
 					"presentation_rect" : [ 23.0, 69.0, 261.0, 197.0 ],
-					"text" : "/rmidi_offset : 4,\n/keystate : \"up\",\n/ascii : \"\",\n/keynum : 100,\n/numKeysDown : 0,\n/fingerIndex : 1,\n/shift : \"up\",\n/capslock : \"up\",\n/option : \"up\",\n/control : \"up\",\n/command : \"up\",\n/time : 2019-02-24T19:42:18.711227ZZ"
+					"text" : "/rmidi_offset : 0,\n/keystate : \"up\",\n/ascii : \"a\",\n/keynum : 97,\n/numKeysDown : 0,\n/fingerIndex : 1,\n/shift : \"up\",\n/capslock : \"up\",\n/option : \"up\",\n/control : \"up\",\n/command : \"up\",\n/time : 2019-02-24T19:50:48.563828ZZ"
 				}
 
 			}
