@@ -204,30 +204,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 895.5, 245.0, 150.0, 22.0 ],
-					"text" : "cnmat.o.norm.scale~ 0 /hz"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 6,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 895.5, 208.0, 184.0, 22.0 ],
-					"text" : "cnmat.o.phase.points~ /env/mod"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -332,7 +308,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 332.0, 526.0, 32.0, 22.0 ],
-					"text" : "/~ 2."
+					"text" : "/~ 3."
 				}
 
 			}
@@ -525,15 +501,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"midpoints" : [ 905.0, 195.25, 1099.0, 195.25 ],
-					"order" : 0,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -541,7 +508,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-26", 1 ]
 				}
 
@@ -567,14 +534,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 2 ],
 					"order" : 0,
-					"source" : [ "obj-26", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
-					"order" : 1,
 					"source" : [ "obj-26", 1 ]
 				}
 
@@ -624,20 +583,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"source" : [ "obj-4", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -647,63 +592,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "cnmat.o.phase.points~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/signal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.loadbang.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/internal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/internal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/internal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phase.points2.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/code",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/code",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.doc.handler.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/internal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/internal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/internal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.o.click~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/signal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.phase~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/signal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shot-ms-phasor.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/code",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/code",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/code",
 				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.o.norm.scale~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/signal",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.o.num~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
-				"patcherrelativepath" : "../../Packages/Music-and-Computing-1.7/patchers/signal",
+				"patcherrelativepath" : "../../../Max 8/Packages/Music-and-Computing-1.7/patchers/signal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
