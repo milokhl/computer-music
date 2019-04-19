@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 82.0, 1068.0, 714.0 ],
+		"rect" : [ 80.0, 84.0, 1068.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,28 +39,13 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-24",
-					"maxclass" : "number~",
-					"mode" : 1,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 382.0, 275.5, 56.0, 22.0 ],
-					"sig" : 0.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
+					"id" : "obj-20",
+					"linecount" : 3,
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.0, 438.0, 69.0, 22.0 ],
-					"text" : "print debug"
+					"patching_rect" : [ 353.5, 79.0, 150.0, 47.0 ],
+					"text" : "Note: had to change all of the 0s to 0. to indicate that it should expect a float!"
 				}
 
 			}
@@ -71,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 446.0, 151.0, 33.0 ],
+					"patching_rect" : [ 345.0, 446.0, 151.0, 33.0 ],
 					"text" : "Add an attack and release to avoid clicks."
 				}
 
@@ -241,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.5, 117.0, 151.0, 87.0 ],
+					"patching_rect" : [ 424.5, 155.0, 151.0, 87.0 ],
 					"text" : "When a note event comes in, a nonzero velocity unmutes the voice and marks it as busy. Zero velocity mutes and makes available."
 				}
 
@@ -253,7 +238,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 250.5, 150.0, 47.0 ],
+					"patching_rect" : [ 425.0, 266.5, 150.0, 47.0 ],
 					"text" : "When this voice is instantiated, it should be muted and not busy."
 				}
 
@@ -264,9 +249,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 250.0, 117.0, 67.0, 22.0 ],
-					"text" : "unpack 0 0"
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 250.0, 117.0, 74.0, 22.0 ],
+					"text" : "unpack 0. 0."
 				}
 
 			}
@@ -301,8 +286,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 340.0, 234.0, 33.0, 22.0 ],
-					"text" : "== 0"
+					"patching_rect" : [ 340.0, 234.0, 36.0, 22.0 ],
+					"text" : "<= 0."
 				}
 
 			}
@@ -313,8 +298,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 377.0, 234.0, 29.5, 22.0 ],
-					"text" : "> 0"
+					"patching_rect" : [ 385.0, 234.0, 29.5, 22.0 ],
+					"text" : "> 0."
 				}
 
 			}
@@ -337,7 +322,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.75, 283.5, 52.0, 22.0 ],
+					"patching_rect" : [ 340.0, 296.0, 52.0, 22.0 ],
 					"text" : "mute $1"
 				}
 
@@ -459,13 +444,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -522,7 +500,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -539,15 +517,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
