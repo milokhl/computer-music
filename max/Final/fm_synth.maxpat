@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 82.0, 1468.0, 714.0 ],
+		"rect" : [ 28.0, 82.0, 1468.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 590.0, 26.0, 150.0, 74.0 ],
+					"patching_rect" : [ 590.0, 26.0, 154.0, 74.0 ],
 					"text" : "Relative phase to trigger the envelope. This is the 2nd inlet on the cnmat.phase~ that iterates through the notes to play."
 				}
 
